@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Meme it
       id: meme-it
-      uses: office-action
+      uses: LunguIonut007/office-action
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
     
