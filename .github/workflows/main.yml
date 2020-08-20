@@ -1,0 +1,15 @@
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+jobs:
+  meme_job:
+    runs-on: ubuntu-latest
+    name: A job to meme
+    steps:
+    - name: Meme it
+      id: meme-it
+      uses: actions/office-action@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
