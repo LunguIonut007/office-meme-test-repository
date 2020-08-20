@@ -11,5 +11,5 @@ jobs:
       id: meme-it
       uses: actions/office-action@v1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.ACCESS_TOKEN }}
     
